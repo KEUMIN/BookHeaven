@@ -27,7 +27,7 @@ public class BookRepository {
     }
     public void getConnection() {
         try {
-            connection = DriverManager.getConnection(URL, "hr", "01040962435");
+            connection = DriverManager.getConnection(URL, "hr", "password");
         } catch(Exception ex) { }
     }
     // 오라클 종료
